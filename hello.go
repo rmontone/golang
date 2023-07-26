@@ -16,6 +16,6 @@ func main() {
 
 	var comando int
 	fmt.Scan(&comando)
-	fmt.Println("O endereço da minha variavel comando é", &comando)
+	fmt.Println("O endereço da minha variável comando é", &comando)
 	fmt.Println("O comando escolhido foi", comando)
 }
