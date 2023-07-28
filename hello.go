@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	var nome = "Henrique"
+	nome := "Henrique"
 	version := 1.8
 	fmt.Println("Hello, Mr.", nome)
 	fmt.Println("This program is in the", version, "version")
